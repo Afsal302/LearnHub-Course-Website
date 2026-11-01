@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub-Student Registration</title>
+</head>
+<body>
+    <header>
+        <h1>LearnHub</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>|
+        <a href="course.html">Course</a>|
+        <a href="course-details.html">Course details</a>|
+        <a href="registration.html">Registration</a>|
+        <a href="about.html">About us</a>|
+        <a href="contact.html">Contact us</a>
+    </nav>
+    
+
+    <main>
+    <form>
+    <h2>Student Registration Form</h2>
+    <p>Fill in the details below to register for a course.</p>
+
+    <label for="name">Name</label>
+    <input type="name" id="name" name="name" placeholder="Enter yor name" required>
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="name" placeholder="Enter your email" required>
+    <br><br>
+    <label for="phone">Phone</label>
+    <input type="phone" id="phone" name="phone" placeholder="Enter your phone number" required>
+    <br><br>
+    <label for="dob">D/O/B</label>
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
+     <label>Gender</label>
+
+     <input type="radio" id="male" value="male">
+     <label for="male">Male</label>
+
+    <br><br>
+
+     <input type="radio" id="female" value="female">
+     <label for="female">female</label>
+     <br><br>
+
+     <input type="radio" id="other" value="other">
+     <label for="male">Other</label>
+     <br><br>
+             <label for="qualification">Educational Qualification:</label><br>
+
+        <select id="qualification" name="qualification" required>
+            <option value="SSLC">SSLC</option>
+            <option value="Plus Two">Plus Two</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Degree">Degree</option>
+            <option value="BTech">B.Tech</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+
+        <label for="course">Course Selection:</label><br>
+
+        <select id="course" name="course" required>
+            <option value="HTML" id="html1">HTML</option>
+            <option value="CSS" id="css1">CSS</option>
+            <option value="JavaScript" id="javascript1">JavaScript</option>
+            <option value="Python" id="python1">Python</option>
+            <option value="Java" id="java1">Java</option>
+        </select>
+        <br><br>
+        <label>Preferred Learning Mode:</label><br>
+
+        <input type="radio" id="online" name="mode" value="Online">
+        <label for="online">Online</label>
+
+        <input type="radio" id="offline" name="mode" value="Offline">
+        <label for="offline">Offline</label>
+        <br><br>
+         <label for="terms">I agree to the Terms and Conditions.</label>
+        <input type="checkbox" id="terms" name="terms"
+        value="accepted" required>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+     </form>
+    </main>
+</body>
+</html>
